@@ -1,3 +1,4 @@
+/*=== VARIABLES === */
 :root {
   --color-iris: #4d5ae5;
   --color-ocean: #404bbf;
@@ -12,6 +13,19 @@
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
 }
+/*=== /VARIABLES === */
+
+/*=== COMMON STYLES === */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/*=== /COMMON STYLES === */
+
+
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -21,15 +35,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-/* Page Studio */
+/*=== PAGE HEADER === */
 
 .header-nav__logo-blue {
   color: var(--color-iris);
@@ -79,6 +85,9 @@ body {
   color: var(--color-ocean);
 }
 
+/* === /PAGE HEADER === */
+
+/* === HERO === */
 .hero {
   background-color: var(--color-navy-blue);
 }
@@ -108,6 +117,7 @@ body {
   background-color: var(--color-ocean);
 }
 
+/* === /HERO === */
 .company__title {
   color: var(--color-navy-blue);
   font-weight: 500;
@@ -200,7 +210,7 @@ body {
   line-height: 1.5;
 }
 
-/* Page Portfolio */
+/* === Page Portfolio === */
 
 .gallery-filter__button {
   color: var(--color-iris);
